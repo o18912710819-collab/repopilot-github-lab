@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check addition
-        run: python3 -c "assert 1 + 2 == 4, 'Expected 4, got 3'"
+        run: python3 -c "assert 1 + 2 == 3"
