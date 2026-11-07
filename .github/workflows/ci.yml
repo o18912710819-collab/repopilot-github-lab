@@ -1,0 +1,9 @@
+name: CI Lab
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check addition
+        run: python3 -c "assert 1 + 2 == 3"
